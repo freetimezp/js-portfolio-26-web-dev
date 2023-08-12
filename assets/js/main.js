@@ -71,8 +71,6 @@ const iconTheme = 'ri-sun-line';
 const selectedTheme = localStorage.getItem('selectedtheme');
 const selectedIcon = localStorage.getItem('selectedicon');
 
-console.log(1, selectedTheme)
-
 const getCurrentTheme = () => {
     document.body.classList.contains(darkTheme) ? 'dark' : 'light';
 }
